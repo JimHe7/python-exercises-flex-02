@@ -1,4 +1,4 @@
-"""
+
 # ex1 
 list2 = [2,3,4,1,3,-1,0,-5]
 
@@ -92,7 +92,7 @@ for i in range (0,len(matrix1)):
     matrix3.append(temp)
 
 print(matrix3)
-"""
+
 
 #ex 11 A out of order
 list1 = [1,2,3,5,5,5,5,3,1,2,3,4]
