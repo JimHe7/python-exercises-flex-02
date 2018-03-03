@@ -1,33 +1,34 @@
-# ex1 
-list = [2,3,4,1,3,-1,0,-5]
-
 """
+# ex1 
+list2 = [2,3,4,1,3,-1,0,-5]
+
+
 sum = 0
 for i in range (0,len(list)):
-    sum +=list[i]
+    sum +=list2[i]
     
 print(sum)
 
 
 #ex 2 
 
-print(max(list))
+print(max(list2))
 
 #ex3 
 
-print(min(list))
+print(min(list2))
 
 #ex4
-for i in range (0,len(list)):
-    if list[i] % 2 == 0:
-        print(list[i])
+for i in range (0,len(list2)):
+    if list2[i] % 2 == 0:
+        print(list2[i])
         
 
 
 #ex5
-for i in range (0,len(list)):
-    if list[i] > 0:
-        print(list[i])
+for i in range (0,len(list2)):
+    if list2[i] > 0:
+        print(list2[i])
         
 
 
@@ -91,5 +92,22 @@ for i in range (0,len(matrix1)):
     matrix3.append(temp)
 
 print(matrix3)
-
 """
+
+#ex 11 A out of order
+list1 = [1,2,3,5,5,5,5,3,1,2,3,4]
+set1 = set(list1)
+out = list(set1)
+print(out)
+
+
+#ex 11 B same order
+list1 = [1,2,3,5,5,5,5,3,1,2,3,4]
+unique =[]
+
+for i in list1:
+    if i in unique:
+        pass
+    else:
+        unique.append(i)
+print(unique)
