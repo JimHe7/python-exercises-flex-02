@@ -1,6 +1,6 @@
 #step 1
 
-"""
+
 secretNum = 5
 print ("Yo dawg im thinking of a number between 1 and 10, ya feel")
 guess = int(input("What's the digit brah "))
@@ -77,7 +77,7 @@ if guess == secretNum:
     print("YES! YOU WIN BRAH")
 else:
     print("YOU SUCK LOSER")
-"""
+
 #step 5
 
 import random
