@@ -60,8 +60,36 @@ for i in range (0,len(vector1)):
     
 print(vector3)
 
-"""
+
 #ex9
 matrix1 = [[1,3],[2,4]]
 matrix2 = [[5,2],[1,0]]
+matrix3 = []
+temp = []
+for i in range (0,len(matrix1)):
+    
+    temp=[]
+    
+    for k in range (0,len(matrix1[0])):
+        temp.append(matrix1[i][k]+matrix2[i][k])
+    matrix3.append(temp)
 
+print(matrix3)
+
+#ex10
+
+matrix1 = [[1,3,4,13,1],[2,4,4,1,2],[1,2,3,4,5]]
+matrix2 = [[5,2,4,45,3],[1,0,41,3,1],[4,4,3,2,1]]
+matrix3 = []
+temp = []
+for i in range (0,len(matrix1)):
+    
+    temp=[]
+    
+    for k in range (0,len(matrix1[0])):
+        temp.append(matrix1[i][k]+matrix2[i][k])
+    matrix3.append(temp)
+
+print(matrix3)
+
+"""
