@@ -57,7 +57,8 @@ phrase = list(input("phrase? "))
 l = len(phrase)
 
 for i in range(0,l):
-    phrase[i]=translator[phrase[i]]
+    if phrase[i] in translator.keys():
+        phrase[i]=translator[phrase[i]]
 
 phraseString = "".join(phrase)
 print(phraseString)
