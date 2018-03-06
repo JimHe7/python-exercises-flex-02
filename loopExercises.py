@@ -1,4 +1,4 @@
-"""
+
 #ex1 
 for i in range (1,11):
     print(i)
@@ -65,7 +65,6 @@ for a in range (1,11):
 #triangle number
 for n in range(1,101):
     print ("Triangle number for",n,"=",n*(n+1)/2)
-"""
 
 #find factors
 factors =[]
@@ -75,3 +74,10 @@ for d in range(1,num+1):
         factors.append(d)
         
 print(factors)
+
+#banner
+phrase = input("Phrase?")
+l = len(phrase)
+print("*"*(l+4))
+print("*",phrase,"*")
+print("*"*(l+4))
