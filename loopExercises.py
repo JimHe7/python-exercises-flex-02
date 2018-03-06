@@ -39,7 +39,7 @@ for h in range(0,height):
         print("*",space,"*",sep="")
         
 
-"""
+
 #ex 7 / ex8
 
 # first X is at position equal to height, total length of every row is 2*height - 1
@@ -51,6 +51,27 @@ for h in range(0,height):
 height = int(input("Height? "))
 
 for r in range (1, height+1): 
-    print(" "*(height-r),"*"*(2*r-1)," "*(height-r))
-    
-    
+    print(" "*(height-r),"*"*(2*r-1)," "*(height-r),sep="")
+
+
+#ex9, slightly different from prompt, removed duplicates, 3*5 vs 5*3
+for a in range (1,11):
+    for b in range (a,11):
+        print(a," X ",b,"=",a*b)
+       
+       
+
+
+#triangle number
+for n in range(1,101):
+    print ("Triangle number for",n,"=",n*(n+1)/2)
+"""
+
+#find factors
+factors =[]
+num = int(input("Number?"))
+for d in range(1,num+1):
+    if num % d == 0:
+        factors.append(d)
+        
+print(factors)
